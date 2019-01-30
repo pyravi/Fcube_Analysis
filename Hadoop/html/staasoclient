@@ -1,0 +1,4 @@
+#!/usr/bin/python 
+import os 
+os.system('mkdir /media/rdbox')
+os.system('mount 192.168.126.128:/staaso/dq /media/rdbox')

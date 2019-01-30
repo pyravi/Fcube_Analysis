@@ -1,0 +1,92 @@
+#!/usr/bin/python2
+import os
+import getpass
+import commands
+import sys
+import fileinput
+import cgi
+cmd=commands.getstatusoutput("hostname -i")
+if cmd[0]==0:
+	k=cmd[1]
+print "Content-Type:text/html"
+x=cgi.FormContent()
+ch=x['choice'][0]
+pas=x['pass'][0]
+uid=x['uname'][0]
+k=commands.getoutput("sudo cat /etc/shadow|cut -d: -f1")
+if uid in k :
+	print "location: http://192.168.234.132/saasfa.html"
+	print
+else :
+	if ch == '1':
+		os.system('sudo useradd -s /usr/bin/firefox  '  +uid)
+		os.system("sudo echo " +pas+ " |  " +pas+ " --stdin" )
+		fi=open('cloudf'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os \nos.system('ssh -X -l "+uid+"  "+k+ " firefox')\n")
+		fi.close()
+		fi=open('clientf'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os\nos.system('chmod +x cloud') \nos.system('cp change.desktop /usr/share/applications/cloudfire.desktop')\n")
+		fi.write("os.system('rm change.desktop')")
+		os.system("sudo cp clientf"+uid+"  /var/www/html/client")
+		os.system("sudo cp cloudf"+uid+"  /var/www/html/cloud")
+		print "location: http://192.168.234.132/download.html"
+		print
+		break
+"""
+	elif ch == '2':
+		os.system('sudo useradd  '  +uid)
+		os.system("sudo echo " +pas+ " | passwd " +pas+ " --stdin" )
+		fi=open('cloudg'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os \nos.system('ssh -X -l "+uid+"  "+k+ " gcalctool ')\n")
+		fi.close()
+		fi=open('clientg'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os\nos.system('chmod +x cloud') \nos.system('cp changec.desktop /usr/share/applications/cloudcal.desktop')\n")
+		#fi.write("os.system('rm changec.desktop')")
+		os.system("sudo cp clientg"+uid+"  /var/www/html/client")
+		os.system("sudo cp cloudg"+uid+"  /var/www/html/cloud")
+		print "location: http://192.168.234.132/download.html"
+		print
+		break	
+	elif ch == '3':
+		os.system('sudo useradd  '  +uid)
+		os.system("sudo echo " +pas+ " | passwd " +pas+ " --stdin" )
+		fi=open('cloudt'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os \nos.system('ssh -X -l "+uid+"  "+k+ " gnome-terminal ')\n")
+		fi.close()
+		fi=open('clientt'+uid,'wb')
+		fi.write("#!/usr/bin/python \nimport os\nos.system('chmod +x cloud') \nos.system('cp changet.desktop /usr/share/applications/cloudter.desktop')\n")
+		#fi.write("os.system('rm changet.desktop')")
+		os.system("sudo cp clientt"+uid+"  /var/www/html/client")
+		os.system("sudo cp cloudt"+uid+"  /var/www/html/cloud")
+		print "location: http://192.168.234.132/download.html"
+		print
+		break
+	elif ch == '4':
+		os.system('sudo useradd  '  +uid)
+		os.system("sudo echo " +pas+ " | passwd " +pas+ " --stdin" )
+		fi=open('cloudn','wb')
+		fi.write("#!/usr/bin/python \nimport os \nos.system('ssh -X -l "+uid+"  "+k+ " wine Notepad ')\n")
+		fi.close()
+		fi=open('clientn','wb')
+		fi.write("#!/usr/bin/python \nimport os\nos.system('chmod +x cloudnote') \nos.system('cp rdcloudnotepad.desktop /usr/share/applications/rdcloudnotepad.desktop')\n")
+		#fi.write("os.system('rm changet.desktop')")
+		os.system("sudo cp clientn"+uid+"  /var/www/html/client")
+		os.system("sudo cp cloudn"+uid+"  /var/www/html/cloud")
+		print "location: http://192.168.234.132/download.html"
+		print
+		break
+	elif ch == '5':
+		os.system('sudo useradd  '  +uid)
+		os.system("sudo echo " +pas+ " | passwd " +pas+ " --stdin" )
+		fi=open('cloudwp','wb')
+		fi.write("#!/usr/bin/python \nimport os \nos.system('ssh -X -l "+uid+"  "+k+ " wine wordPad ')\n")
+		fi.close()
+		fi=open('clientwp','wb')
+		fi.write("#!/usr/bin/python \nimport os\nos.system('chmod +x cloudword') \nos.system('cp rdcloudwordpad.desktop /usr/share/applications/rdcloudwordpad.desktop')\n")
+		#fi.write("os.system('rm changet.desktop')")
+		os.system("sudo cp clientwp"+uid+"  /var/www/html/client")
+		os.system("sudo cp cloudgwp"+uid+"  /var/www/html/cloud")
+		print "location: http://192.168..132/download.html"
+		print
+		break
+"""

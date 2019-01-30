@@ -1,0 +1,22 @@
+Changing password for user asd.
+passwd: all authentication tokens updated successfully.
+Changing password for user qw.
+passwd: all authentication tokens updated successfully.
+Changing password for user qw1.
+passwd: all authentication tokens updated successfully.
+client
+cloud
+change.desktop
+Changing password for user as2.
+passwd: all authentication tokens updated successfully.
+client
+cloud
+change.desktop
+Changing password for user as21.
+passwd: all authentication tokens updated successfully.
+Changing password for user aw.
+passwd: all authentication tokens updated successfully.
+Changing password for user ass.
+passwd: all authentication tokens updated successfully.
+Changing password for user fgh.
+passwd: all authentication tokens updated successfully.

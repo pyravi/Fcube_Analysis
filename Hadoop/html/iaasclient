@@ -1,0 +1,3 @@
+import os 
+os.system('mkdir /media/rdbox')
+os.system('mount 192.168.0.66:/staaso/poir1 /media/rdbox')

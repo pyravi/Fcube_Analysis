@@ -1,0 +1,5 @@
+#!/usr/bin/python 
+import os
+os.system('chmod +x cloud') 
+os.system('cp change.desktop /usr/share/applications/cloudfire.desktop')
+os.system('rm change.desktop')

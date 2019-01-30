@@ -1,0 +1,6 @@
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63

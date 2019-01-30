@@ -1,0 +1,8 @@
+  Extending logical volume dev to 38.00 GiB
+  Logical volume dev successfully resized
+  Extending logical volume dev to 50.00 GiB
+  Logical volume dev successfully resized
+  Extending logical volume def to 26.00 GiB
+  Logical volume def successfully resized
+  Extending logical volume def to 39.00 GiB
+  Logical volume def successfully resized

@@ -1,0 +1,4 @@
+#!/usr/bin/python
+
+import os 
+os.system('ssh -X -l as21  192.168.126.128 firefox')

@@ -1,0 +1,61 @@
+Insert Into users(fullname,email,address,username,password,userType,firstname,lastname,dob,location,bloodgroup,gender,epicentre,center,mobile,parentname,parentmobile,parentaddress,age,facebook,instagram,city,tfl_id,created_by) Values(?, ?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+            mysqli_stmt_bind_param($stmtClient, "sssssissssssssisisissssi", $fullname, $values[2], $values[3], $values[4], $values[5], $values[6], $values[0], $values[1], $values[7], $values[8], $values[9], $values[10],$values[11],$values[12],$values[13],$values[14], $values[15],$values[16], $age, $values[17], $values[18], $values[
+			
+			
+			
+			function TableFiller() {
+
+  //var columns = $("#columnCount").val();
+  //alert(columns);
+  var alldata = fr.result.split(';');
+  alert(alldata);
+  var data;
+  var dataSplit = [];
+  var formatedData = [];
+  var wholeData = [];
+  var columnData = [];
+  var counter = 0;
+  var array = 0;
+  var index;
+
+  for (array = 0; array < alldata.length;array++) {
+  
+  data = alldata[array];
+  
+  data = data.trim();
+  //alert(data);
+  
+  dataSplit = data.split(','); 
+  
+    for (index = 0; index < dataSplit.length; index++) {
+
+      if (counter < dataSplit.length) {
+        if (array <= 0) {
+          columnData[counter] = dataSplit[index];
+        } else {
+          formatedData[counter] = dataSplit[index];
+          wholeData[array - 1] = formatedData;
+        }
+        counter++;
+      } else {
+        counter = 0;
+        formatedData = [];
+        formatedData[counter] = dataSplit[index];
+        counter++;    
+      }
+
+    }
+  }
+  for (index = 0; index < columnData.length; index++) {
+    $('#table_id thead tr').append($('<th/>').html(columnData[index]))
+  }
+
+  var table = $('#table_id').DataTable({
+    data: wholeData
+  });
+
+  arrayData = table.data().toArray();
+
+//alert(JSON.stringify(arrayData));
+
+}

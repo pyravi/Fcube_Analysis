@@ -1,0 +1,65 @@
+<html>
+<head><Title>Resource Saver</title></head>
+<body>
+<center><h1><font color=#1111ff>Entry Point(STORAGE AS A SERVICE)</font></h1></center>
+<hr>
+<form action="/cgi-bin/staas.py" style="width:20%; float:left ; padding-left: 10%;"> 
+<fieldset>
+<legend> Storage As A Service</legend>
+<table>
+<tr>
+<td colspan=3 ><font color='BLUE'>Select Any Type Of Storage </td> 
+</tr>
+<tr>
+<td colspan=2>NFS OBJECT STORAGE </td> <td><input type='radio' name='cho' value='1'></td>
+</tr>
+<tr>
+<td colspan=2>SSHFS OBJECT STORAGE</td> <td><input type='radio' name='cho' value='2'></td>
+</tr>
+<tr>
+<td colspan=2>ISCSI BLOCK STORAGE</td> <td><input type='radio' name='cho' value='3'></td>
+</tr>
+<tr>
+<td>Enter the storage size </td> <td><input type='text' name='size'></td>
+</tr>
+<tr>
+<td>USERID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>PASSWORD</td> <td><input type='password' name='pas'></td></br>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+<form action="/cgi-bin/staas.py" style="width:20%; float:right ; padding-right: 10%;"> 
+<fieldset>
+<legend> Storage As A Service</legend>
+<table>
+<tr>
+<td colspan=2><font color='BLUE'>EXISTING USER</td>
+</tr>
+<tr>
+<td colspan=2>INCREASE STORAGE </td> <td><input type='radio' name='cho' value='4'></td>
+</tr>
+<tr>
+<td colspan=2>REDUCE STORAGE</td> <td><input type='radio' name='cho' value='5'></td>
+</tr>
+<tr>
+<td>Enter the storage size </td> <td><input type='text' name='size'></td>
+</tr>
+<tr>
+<td>USERID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>PASSWORD</td> <td><input type='password' name='pas'></td></br>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+

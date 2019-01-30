@@ -1,0 +1,52 @@
+<html>
+<head><Title>Resource Saver</title></head>
+<body>
+<centre><h1>Entry Point</h1></centre>
+<hr>
+<a href="sa.py" > check</a>
+<form action="/var/www/cgi-bin/sa.py" style="width:20%; float:left ; padding-left: 10%;"> 
+<fieldset>
+<legend> Login Information</legend>
+<table>
+<tr>
+<td>USER ID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>PASSWORD</td> <td><input type='password' name='pass'></td></br>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+
+
+<form style="width:20%; float:right;  padding-right: 10%;"> 
+<fieldset>
+<legend> Sign UP Information</legend>
+<table>
+<tr>
+<td>USER NAME </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>EMAIL ID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td> </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>USER ID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>USER ID </td> <td><input type='text' name='uname'></td>
+</tr>
+<tr>
+<td>PASSWORD</td> <td><input type='password' name='pass'></td></br>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+</table>
+</fieldset>
+</form>

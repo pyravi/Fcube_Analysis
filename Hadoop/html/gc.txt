@@ -1,0 +1,550 @@
+  Logical volume "wq" created
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "aa" created
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "eq" created
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "eqq" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "21" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Rounding up size to full physical extent 208.00 MiB
+  Logical volume "lk1" created
+  Rounding up size to full physical extent 208.00 MiB
+  Logical volume "lk2" created
+  Rounding up size to full physical extent 616.00 MiB
+  Logical volume "lo" created
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Setting up Install Process
+Package fuse-sshfs-2.4-1.el6.x86_64 already installed and latest version
+Nothing to do
+Stopping sshd: [  OK  ]
+Starting sshd: [  OK  ]
+  Rounding up size to full physical extent 924.00 MiB
+mkfs.vfat 3.0.9 (31 Jan 2010)
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [FAILED]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "adaa" created
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Setting up Install Process
+Package scsi-target-utils-1.0.24-2.el6.x86_64 already installed and latest version
+Nothing to do
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "adaaa" created
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Setting up Install Process
+Package scsi-target-utils-1.0.24-2.el6.x86_64 already installed and latest version
+Nothing to do
+  Rounding up size to full physical extent 104.00 MiB
+  Logical volume "adaaaa" created
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Setting up Install Process
+Package scsi-target-utils-1.0.24-2.el6.x86_64 already installed and latest version
+Nothing to do
+Stopping SCSI target daemon: not running[FAILED]
+Starting SCSI target daemon: [  OK  ]
+  Logical volume "sd" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [FAILED]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "qw" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [FAILED]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "qw1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [FAILED]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "qw2" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "qw3" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "qw4" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user asd.
+passwd: all authentication tokens updated successfully.
+  Logical volume "asd" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "asd1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user asdq.
+passwd: all authentication tokens updated successfully.
+  Logical volume "asdq" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qwe.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qwe" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user ert1.
+passwd: all authentication tokens updated successfully.
+  Logical volume "ert1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user zxc.
+passwd: all authentication tokens updated successfully.
+  Logical volume "zxc" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user zxc.
+passwd: all authentication tokens updated successfully.
+  Logical volume "zxc" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qwe.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qwe" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qwe.
+passwd: all authentication tokens updated successfully.
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qw.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qw" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user rew.
+passwd: all authentication tokens updated successfully.
+  Logical volume "rew" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user tre.
+passwd: all authentication tokens updated successfully.
+  Logical volume "tre" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user lkj.
+passwd: all authentication tokens updated successfully.
+  Logical volume "lkj" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user ertt.
+passwd: all authentication tokens updated successfully.
+  Logical volume "ertt" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qq.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qq" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qq1.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qq1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qq12.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qq12" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user 123.
+passwd: all authentication tokens updated successfully.
+  Logical volume "123" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user 1231.
+passwd: all authentication tokens updated successfully.
+  Logical volume "1231" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user 567.
+passwd: all authentication tokens updated successfully.
+  Logical volume "567" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user 5673.
+passwd: all authentication tokens updated successfully.
+  Logical volume "5673" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qwe1.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qwe1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "snapqwe1" created
+Changing password for user jhg.
+passwd: all authentication tokens updated successfully.
+  Logical volume "jhg" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user JHG.
+passwd: all authentication tokens updated successfully.
+  Logical volume "JHG" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [FAILED]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+  Logical volume "JHG1" created
+Loaded plugins: product-id, refresh-packagekit, security, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package fuse-sshfs.x86_64 0:2.4-1.el6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package              Arch             Version             Repository      Size
+================================================================================
+Installing:
+ fuse-sshfs           x86_64           2.4-1.el6           asda            52 k
+
+Transaction Summary
+================================================================================
+Install       1 Package(s)
+
+Total download size: 52 k
+Installed size: 115 k
+Downloading Packages:
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : fuse-sshfs-2.4-1.el6.x86_64                                  1/1 
+  Verifying  : fuse-sshfs-2.4-1.el6.x86_64                                  1/1 
+
+Installed:
+  fuse-sshfs.x86_64 0:2.4-1.el6                                                 
+
+Complete!
+Stopping sshd: [  OK  ]
+Starting sshd: [  OK  ]
+Changing password for user poi.
+passwd: all authentication tokens updated successfully.
+  Logical volume "poi" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user poir1.
+passwd: all authentication tokens updated successfully.
+  Logical volume "poir1" created
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Stopping RPC idmapd: [  OK  ]
+Starting RPC idmapd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user qwe.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qwe" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Changing password for user qwe.
+passwd: all authentication tokens updated successfully.
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Changing password for user qq.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qq" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Changing password for user qw2.
+passwd: all authentication tokens updated successfully.
+  Logical volume "qw2" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Starting NFS daemon: [  OK  ]
+Changing password for user dq.
+passwd: all authentication tokens updated successfully.
+  Logical volume "dq" created
+mkfs.vfat 3.0.9 (31 Jan 2010)
+unable to get drive geometry, using default 255/63
+Shutting down NFS daemon: [  OK  ]
+Shutting down NFS mountd: [  OK  ]
+Shutting down NFS quotas: [  OK  ]
+Shutting down NFS services:  [  OK  ]
+Starting NFS services:  [  OK  ]
+Starting NFS quotas: [  OK  ]
+Starting NFS mountd: [  OK  ]
+Starting NFS daemon: [  OK  ]
